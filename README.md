@@ -273,11 +273,11 @@ curl -X GET http://localhost:3000/api/store/1/download-report \
 
 ## Sample CSV Files
 
-The repository includes sample CSV files for testing:
-- `sample-inventory.csv` - Basic sample data
-- `test-inventory-upsert.csv` - Tests upsert and copy incrementing
-- `test-empty-rows.csv` - Tests empty row handling
-- `final-test-inventory.csv` - Comprehensive test data (96 records)
+The repository includes sample CSV files for testing in the `test-data/` folder:
+- `test-data/sample-inventory.csv` - Basic sample data (6 records)
+- `test-data/test-inventory-upsert.csv` - Tests upsert and copy incrementing (13 records)
+- `test-data/test-empty-rows.csv` - Tests empty row handling (4 records)
+- `test-data/final-test-inventory.csv` - Comprehensive test data (96 records)
 
 ## Error Handling
 

@@ -1,0 +1,95 @@
+store_name,store_address,book_name,pages,author_name,price
+BookWorld,123 Main Street,The Great Gatsby,180,F. Scott Fitzgerald,25.99
+BookWorld,123 Main Street,To Kill a Mockingbird,281,Harper Lee,22.50
+BookWorld,123 Main Street,1984,328,George Orwell,19.75
+BookWorld,123 Main Street,Pride and Prejudice,432,Jane Austen,18.25
+BookWorld,123 Main Street,The Catcher in the Rye,234,J.D. Salinger,20.99
+BookWorld,123 Main Street,The Lord of the Rings,1178,J.R.R. Tolkien,35.99
+BookWorld,123 Main Street,The Hobbit,310,J.R.R. Tolkien,24.50
+BookWorld,123 Main Street,Animal Farm,112,George Orwell,15.99
+BookWorld,123 Main Street,The Chronicles of Narnia,767,C.S. Lewis,28.75
+BookWorld,123 Main Street,The Picture of Dorian Gray,254,Oscar Wilde,21.50
+ReadMore,456 Oak Avenue,The Great Gatsby,180,F. Scott Fitzgerald,26.50
+ReadMore,456 Oak Avenue,1984,328,George Orwell,20.25
+ReadMore,456 Oak Avenue,Pride and Prejudice,432,Jane Austen,19.99
+ReadMore,456 Oak Avenue,The Catcher in the Rye,234,J.D. Salinger,21.50
+ReadMore,456 Oak Avenue,The Lord of the Rings,1178,J.R.R. Tolkien,36.99
+ReadMore,456 Oak Avenue,The Hobbit,310,J.R.R. Tolkien,25.00
+ReadMore,456 Oak Avenue,Animal Farm,112,George Orwell,16.50
+ReadMore,456 Oak Avenue,The Chronicles of Narnia,767,C.S. Lewis,29.99
+ReadMore,456 Oak Avenue,The Picture of Dorian Gray,254,Oscar Wilde,22.75
+ReadMore,456 Oak Avenue,To Kill a Mockingbird,281,Harper Lee,23.99
+ReadMore,456 Oak Avenue,The Adventures of Huckleberry Finn,366,Mark Twain,19.50
+ReadMore,456 Oak Avenue,The Adventures of Tom Sawyer,244,Mark Twain,18.75
+ReadMore,456 Oak Avenue,The Scarlet Letter,238,Nathaniel Hawthorne,17.99
+ReadMore,456 Oak Avenue,Moby Dick,635,Herman Melville,24.99
+ReadMore,456 Oak Avenue,The Grapes of Wrath,464,John Steinbeck,22.25
+BookHaven,789 Pine Road,The Great Gatsby,180,F. Scott Fitzgerald,27.99
+BookHaven,789 Pine Road,1984,328,George Orwell,21.50
+BookHaven,789 Pine Road,The Lord of the Rings,1178,J.R.R. Tolkien,38.50
+BookHaven,789 Pine Road,The Hobbit,310,J.R.R. Tolkien,26.99
+BookHaven,789 Pine Road,Animal Farm,112,George Orwell,17.25
+BookHaven,789 Pine Road,The Chronicles of Narnia,767,C.S. Lewis,31.50
+BookHaven,789 Pine Road,The Picture of Dorian Gray,254,Oscar Wilde,23.99
+BookHaven,789 Pine Road,To Kill a Mockingbird,281,Harper Lee,24.75
+BookHaven,789 Pine Road,The Adventures of Huckleberry Finn,366,Mark Twain,20.99
+BookHaven,789 Pine Road,The Adventures of Tom Sawyer,244,Mark Twain,19.50
+BookHaven,789 Pine Road,The Scarlet Letter,238,Nathaniel Hawthorne,18.75
+BookHaven,789 Pine Road,Moby Dick,635,Herman Melville,26.50
+BookHaven,789 Pine Road,The Grapes of Wrath,464,John Steinbeck,23.99
+BookHaven,789 Pine Road,Of Mice and Men,107,John Steinbeck,16.99
+BookHaven,789 Pine Road,East of Eden,601,John Steinbeck,27.50
+BookHaven,789 Pine Road,The Old Man and the Sea,127,Ernest Hemingway,18.50
+BookHaven,789 Pine Road,The Sun Also Rises,251,Ernest Hemingway,21.99
+BookHaven,789 Pine Road,For Whom the Bell Tolls,471,Ernest Hemingway,25.75
+BookHaven,789 Pine Road,The Great Gatsby,180,F. Scott Fitzgerald,28.50
+BookHaven,789 Pine Road,Tender Is the Night,408,F. Scott Fitzgerald,24.25
+BookHaven,789 Pine Road,This Side of Paradise,304,F. Scott Fitzgerald,22.99
+LiteraryCorner,321 Elm Street,The Lord of the Rings,1178,J.R.R. Tolkien,39.99
+LiteraryCorner,321 Elm Street,The Hobbit,310,J.R.R. Tolkien,27.50
+LiteraryCorner,321 Elm Street,The Chronicles of Narnia,767,C.S. Lewis,32.99
+LiteraryCorner,321 Elm Street,The Picture of Dorian Gray,254,Oscar Wilde,24.50
+LiteraryCorner,321 Elm Street,The Importance of Being Earnest,76,Oscar Wilde,14.99
+LiteraryCorner,321 Elm Street,The Adventures of Huckleberry Finn,366,Mark Twain,21.75
+LiteraryCorner,321 Elm Street,The Adventures of Tom Sawyer,244,Mark Twain,20.25
+LiteraryCorner,321 Elm Street,The Scarlet Letter,238,Nathaniel Hawthorne,19.50
+LiteraryCorner,321 Elm Street,Moby Dick,635,Herman Melville,27.99
+LiteraryCorner,321 Elm Street,The Grapes of Wrath,464,John Steinbeck,24.99
+LiteraryCorner,321 Elm Street,Of Mice and Men,107,John Steinbeck,17.75
+LiteraryCorner,321 Elm Street,East of Eden,601,John Steinbeck,28.99
+LiteraryCorner,321 Elm Street,The Old Man and the Sea,127,Ernest Hemingway,19.25
+LiteraryCorner,321 Elm Street,The Sun Also Rises,251,Ernest Hemingway,22.50
+LiteraryCorner,321 Elm Street,For Whom the Bell Tolls,471,Ernest Hemingway,26.99
+LiteraryCorner,321 Elm Street,The Great Gatsby,180,F. Scott Fitzgerald,29.99
+LiteraryCorner,321 Elm Street,Tender Is the Night,408,F. Scott Fitzgerald,25.50
+LiteraryCorner,321 Elm Street,This Side of Paradise,304,F. Scott Fitzgerald,23.75
+LiteraryCorner,321 Elm Street,To Kill a Mockingbird,281,Harper Lee,25.99
+LiteraryCorner,321 Elm Street,Go Set a Watchman,278,Harper Lee,24.50
+LiteraryCorner,321 Elm Street,1984,328,George Orwell,22.99
+LiteraryCorner,321 Elm Street,Animal Farm,112,George Orwell,18.50
+LiteraryCorner,321 Elm Street,Pride and Prejudice,432,Jane Austen,21.99
+LiteraryCorner,321 Elm Street,Sense and Sensibility,363,Jane Austen,20.75
+LiteraryCorner,321 Elm Street,Emma,1036,Jane Austen,26.50
+LiteraryCorner,321 Elm Street,The Catcher in the Rye,234,J.D. Salinger,22.99
+LiteraryCorner,321 Elm Street,Nine Stories,302,J.D. Salinger,21.25
+BookWorld,123 Main Street,The Adventures of Huckleberry Finn,366,Mark Twain,20.50
+BookWorld,123 Main Street,The Adventures of Tom Sawyer,244,Mark Twain,19.25
+BookWorld,123 Main Street,The Scarlet Letter,238,Nathaniel Hawthorne,18.50
+BookWorld,123 Main Street,Moby Dick,635,Herman Melville,25.99
+BookWorld,123 Main Street,The Grapes of Wrath,464,John Steinbeck,23.50
+BookWorld,123 Main Street,Of Mice and Men,107,John Steinbeck,17.25
+BookWorld,123 Main Street,East of Eden,601,John Steinbeck,28.25
+BookWorld,123 Main Street,The Old Man and the Sea,127,Ernest Hemingway,19.00
+BookWorld,123 Main Street,The Sun Also Rises,251,Ernest Hemingway,22.25
+BookWorld,123 Main Street,For Whom the Bell Tolls,471,Ernest Hemingway,26.50
+ReadMore,456 Oak Avenue,The Old Man and the Sea,127,Ernest Hemingway,19.75
+ReadMore,456 Oak Avenue,The Sun Also Rises,251,Ernest Hemingway,23.25
+ReadMore,456 Oak Avenue,For Whom the Bell Tolls,471,Ernest Hemingway,27.25
+ReadMore,456 Oak Avenue,Tender Is the Night,408,F. Scott Fitzgerald,25.00
+ReadMore,456 Oak Avenue,This Side of Paradise,304,F. Scott Fitzgerald,23.50
+ReadMore,456 Oak Avenue,Go Set a Watchman,278,Harper Lee,25.50
+ReadMore,456 Oak Avenue,Sense and Sensibility,363,Jane Austen,21.50
+ReadMore,456 Oak Avenue,Emma,1036,Jane Austen,27.99
+ReadMore,456 Oak Avenue,Nine Stories,302,J.D. Salinger,22.50
+ReadMore,456 Oak Avenue,The Importance of Being Earnest,76,Oscar Wilde,15.50
+
