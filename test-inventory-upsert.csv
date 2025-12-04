@@ -1,0 +1,15 @@
+store_name,store_address,book_name,pages,author_name,price
+BookWorld,123 Main Street,The Great Gatsby,180,F. Scott Fitzgerald,12.99
+BookWorld,123 Main Street,The Great Gatsby,180,F. Scott Fitzgerald,13.50
+ReadMore,456 Oak Avenue,1984,328,George Orwell,13.75
+ReadMore,456 Oak Avenue,1984,328,George Orwell,14.00
+BookWorld,123 Main Street,To Kill a Mockingbird,281,Harper Lee,14.50
+BookWorld,123 Main Street,To Kill a Mockingbird,281,Harper Lee,15.00
+NewStore,789 Pine Road,The Great Gatsby,180,F. Scott Fitzgerald,12.99
+NewStore,789 Pine Road,Animal Farm,112,George Orwell,10.50
+ReadMore,456 Oak Avenue,Pride and Prejudice,432,Jane Austen,11.25
+BookWorld,123 Main Street,The Catcher in the Rye,234,J.D. Salinger,10.99
+NewStore,789 Pine Road,1984,328,George Orwell,13.75
+ReadMore,456 Oak Avenue,The Great Gatsby,180,F. Scott Fitzgerald,12.99
+ReadMore,456 Oak Avenue,The Great Gatsby,180,F. Scott Fitzgerald,13.25
+
