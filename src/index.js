@@ -42,9 +42,11 @@ const PORT = process.env.PORT || 3000;
 
 const startServer = async () => {
   try {
+    console.log('\n Starting Bookstore API Server...\n');
+    
     const isConnected = await testConnection();
     if (!isConnected) {
-      console.error('Failed to connect to database. Please check your configuration.');
+      console.error(' Failed to connect to database. Please check your configuration.');
       process.exit(1);
     }
 
@@ -52,11 +54,15 @@ const startServer = async () => {
     await syncDatabase(false, shouldAlter);
 
     app.listen(PORT, () => {
-      console.log(`Server is running on port ${PORT}`);
-      console.log(`Environment: ${process.env.NODE_ENV || 'development'}`);
+      console.log('\n' + '='.repeat(50));
+      console.log(' Server is running!');
+      console.log(` Port: ${PORT}`);
+      console.log(` Environment: ${process.env.NODE_ENV || 'development'}`);
+      console.log(` API Base URL: http://localhost:${PORT}`);
+      console.log('='.repeat(50) + '\n');
     });
   } catch (error) {
-    console.error('Failed to start server:', error);
+    console.error(' Failed to start server:', error.message);
     process.exit(1);
   }
 };
