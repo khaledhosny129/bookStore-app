@@ -13,7 +13,10 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 const inventoryRoutes = require('./routes/inventoryRoutes');
+const storeRoutes = require('./routes/storeRoutes');
+
 app.use('/api/inventory', inventoryRoutes);
+app.use('/api/store', storeRoutes);
 
 app.get('/', (req, res) => {
   res.json({ message: 'Bookstore API is running!' });

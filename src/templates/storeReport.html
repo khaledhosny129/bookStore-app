@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Report</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            line-height: 1.6;
+            padding: 40px;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2c3e50;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            color: #2c3e50;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .header .store-name {
+            font-size: 22px;
+            color: #34495e;
+            margin-bottom: 5px;
+        }
+        .header .store-address {
+            font-size: 14px;
+            color: #7f8c8d;
+            margin-bottom: 10px;
+        }
+        .header .date {
+            font-size: 12px;
+            color: #95a5a6;
+        }
+        .section {
+            margin-bottom: 40px;
+            page-break-inside: avoid;
+        }
+        .section-title {
+            font-size: 20px;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .book-item, .author-item {
+            background: #f8f9fa;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-left: 4px solid #3498db;
+            border-radius: 4px;
+        }
+        .book-item .rank {
+            font-size: 18px;
+            font-weight: bold;
+            color: #3498db;
+            display: inline-block;
+            width: 30px;
+        }
+        .book-item .book-name {
+            font-size: 16px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+        .book-item .details {
+            font-size: 14px;
+            color: #555;
+            margin-left: 30px;
+        }
+        .book-item .details span {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        .book-item .price {
+            color: #27ae60;
+            font-weight: bold;
+        }
+        .author-item .rank {
+            font-size: 18px;
+            font-weight: bold;
+            color: #3498db;
+            display: inline-block;
+            width: 30px;
+        }
+        .author-item .author-name {
+            font-size: 16px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+        .author-item .stats {
+            font-size: 14px;
+            color: #555;
+            margin-left: 30px;
+        }
+        .author-item .stats span {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        .empty-message {
+            text-align: center;
+            color: #95a5a6;
+            font-style: italic;
+            padding: 20px;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ecf0f1;
+            text-align: center;
+            font-size: 12px;
+            color: #95a5a6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Store Report</h1>
+            <div class="store-name">{{storeName}}</div>
+            <div class="store-address">{{storeAddress}}</div>
+            <div class="date">Generated on: {{reportDate}}</div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Top 5 Priciest Books</h2>
+            {{#if topBooks.length}}
+                {{#each topBooks}}
+                <div class="book-item">
+                    <span class="rank">{{add @index 1}}</span>
+                    <div class="book-name">{{this.name}}</div>
+                    <div class="details">
+                        <span><strong>Author:</strong> {{this.authorName}}</span>
+                        <span class="price"><strong>Price:</strong> ${{this.price}}</span>
+                        <span><strong>Copies:</strong> {{this.copies}}</span>
+                    </div>
+                </div>
+                {{/each}}
+            {{else}}
+                <div class="empty-message">No books available in inventory.</div>
+            {{/if}}
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Top 5 Prolific Authors</h2>
+            {{#if topAuthors.length}}
+                {{#each topAuthors}}
+                <div class="author-item">
+                    <span class="rank">{{add @index 1}}</span>
+                    <div class="author-name">{{this.name}}</div>
+                    <div class="stats">
+                        <span><strong>Total Books:</strong> {{this.totalBooks}}</span>
+                        <span><strong>Total Copies:</strong> {{this.totalCopies}}</span>
+                    </div>
+                </div>
+                {{/each}}
+            {{else}}
+                <div class="empty-message">No authors with available books in inventory.</div>
+            {{/if}}
+        </div>
+
+        <div class="footer">
+            <p>Bookstore Inventory Management System</p>
+        </div>
+    </div>
+</body>
+</html>
+
